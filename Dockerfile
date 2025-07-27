@@ -1,4 +1,4 @@
-FROM telethonAr/telethonArab:slim-buster
+FROM telethonar/telethonara:slim-buster
 
 RUN git clone https://github.com/telethonArab/TelethonAr /root/userbot
 WORKDIR /root/userbot
