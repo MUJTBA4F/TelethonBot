@@ -11,7 +11,7 @@ DateTime
 node
 py-tgcalls
 git+https://github.com/pytgcalls/pytgcalls
-emoji
+emoji==1.6.3
 fonttools
 geopy
 gitpython
