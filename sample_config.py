@@ -11,12 +11,13 @@ class Config(object):
     # set this value with your name
     ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
     # Get the values for following 2 from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", 6))
-    API_HASH = os.environ.get("API_HASH") or None
+    APP_ID = 1469001
+    API_HASH = "787772118aa0ad3811290894a879838a"
     # Datbase url heroku sets it automatically else get this from elephantsql
-    DB_URI = os.environ.get("DATABASE_URL", None)
+    DB_URI = "sqlite:///userbot.db"
     # Get this value by running python3 stringsetup.py or https://repl.it/@X888E/generatestringsession
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    STRING_SESSION = "1ApWapzMBuySJD6MBqyaati9J5jiKBRcJmdVLDNIbdnkfmAEphAMKX74eEpcnb8RQKjzD4idUNAbDIQt9f0B3Wc3ozLEH1csMrHephGW4vnDDQaX8m9z1OixCW10btPbSmx-v0Ec7QF0QAx9aOaxpmxQghQS4q0uy_bAOzuy6VWpTnu_SuvxmY-r4oKuIBLbbJsCXUvbSDYDZ5W-HCTMQe-ByyoXluPWxddUqueig1Ff4A5tHTuViBeI_iOEbREIB0WR2teAJfIgaoKi4Zy33Ii7yWJMpaqsSgh8Mzan-Fah8_p2yd5rbnzdmobtRW85v_33DreSnhJAwts9H8BRL7ZagYTU-z_Y="
+
     # Telegram BOT Token and bot username from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN") or os.environ.get(
         "TG_BOT_TOKEN_BF_HER", None
